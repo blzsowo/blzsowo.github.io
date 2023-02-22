@@ -42,6 +42,33 @@
     </entry>
     
     
+    
+    <entry>
+      <title>sql注入的流量分析</title>
+      <link href="/2022/02/22/blog_1/"/>
+      <url>/2022/02/22/blog_1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="深入浅出了解sql注入"><a href="#深入浅出了解sql注入" class="headerlink" title="深入浅出了解sql注入"></a>深入浅出了解sql注入</h2><p>sql的原理</p><h2 id="分析sql注入"><a href="#分析sql注入" class="headerlink" title="分析sql注入"></a>分析sql注入</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 信息安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 流量分析 </tag>
+            
+            <tag> ctf </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
