@@ -5,10 +5,10 @@
     
     <entry>
       <title>NSSCTF</title>
-      <link href="/2023/02/22/blgo-1/"/>
-      <url>/2023/02/22/blgo-1/</url>
+      <link href="/2023/02/22/check/"/>
+      <url>/2023/02/22/check/</url>
       
-        <content type="html"><![CDATA[<h2 id="NSSCTF-流量分析"><a href="#NSSCTF-流量分析" class="headerlink" title="NSSCTF 流量分析"></a>NSSCTF 流量分析</h2><h3 id="NISACTF-2022-流量包里有个熊"><a href="#NISACTF-2022-流量包里有个熊" class="headerlink" title="[NISACTF 2022]流量包里有个熊"></a>[NISACTF 2022]流量包里有个熊</h3><p>kali file一下</p><p>![1.png]</p><p>给Bearlove加一个pcap的后缀名</p><p>![2.png]</p><p>有图片导出来</p><p>![3.png]</p><p>winhex看到图片里面有flag.txt 直接文件分离</p><p>![4.png]<br>有两个flag文件 base64没有用, rot13解密一下</p><p>![image-20230224095235799]</p><p>ffd8开头 ffd9结尾 感觉是jpg</p><p>![5.png]</p><p>![6]</p><p>用winhex新建一个1kb的文件</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="NSSCTF-流量分析"><a href="#NSSCTF-流量分析" class="headerlink" title="NSSCTF 流量分析"></a>NSSCTF 流量分析</h2><h3 id="NISACTF-2022-流量包里有个熊"><a href="#NISACTF-2022-流量包里有个熊" class="headerlink" title="[NISACTF 2022]流量包里有个熊"></a>[NISACTF 2022]流量包里有个熊</h3><p>kali file一下</p><p><img src="/.com//1.png" alt="1"></p><p>给Bearlove加一个pcap的后缀名</p><p><img src="/.com//2.png" alt="2.png"></p><p>有图片导出来</p><p><img src="/.com//3.png" alt="3.png"></p><p>winhex看到图片里面有flag.txt 直接文件分离</p><p><img src="/.com//4.png" alt="4"></p><p>有两个flag文件 base64没有用, rot13解密一下</p><p><img src="/.com//5.png" alt="5"></p><p>ffd8开头 ffd9结尾 感觉是jpg</p><p><img src="/.com//6.png" alt="6"></p><p>用winhex新建一个1kb的文件</p>]]></content>
       
       
       <categories>
