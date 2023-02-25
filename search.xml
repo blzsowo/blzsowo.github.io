@@ -8,7 +8,7 @@
       <link href="/2023/02/22/check/"/>
       <url>/2023/02/22/check/</url>
       
-        <content type="html"><![CDATA[<h2 id="NSSCTF-流量分析"><a href="#NSSCTF-流量分析" class="headerlink" title="NSSCTF 流量分析"></a>NSSCTF 流量分析</h2><h3 id="NISACTF-2022-流量包里有个熊"><a href="#NISACTF-2022-流量包里有个熊" class="headerlink" title="[NISACTF 2022]流量包里有个熊"></a>[NISACTF 2022]流量包里有个熊</h3><p>kali file一下</p><p><img src="1.png"></p><p>给Bearlove加一个pcap的后缀名</p><p><img src="2.png" alt="2.png"></p><p>有图片导出来康康</p><p><img src="3.png" alt="3.png"></p><p>winhex看到图片里面有flag.txt 直接文件分离</p><p><img src="4.png" alt="4"></p><p>有两个flag文件 base64没有用, rot13解密一下</p><p><img src="5.png" alt="5"></p><p>ffd8开头 ffd9结尾 感觉是jpg</p><p><img src="6.png" alt="6"></p><p>用winhex新建一个1kb的文件 然后把rot13解密后的数据copy进去 格式选择ASCII Hex</p><p><img src="7.png"></p><p>保存为jpg图片 盲水印看到flag 这是要把人看瞎吗 真看不清楚… …</p><p>看wp得flag NSSCTF{S0_clev2l_You}</p><p><img src="8.png"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="NSSCTF-流量分析"><a href="#NSSCTF-流量分析" class="headerlink" title="NSSCTF 流量分析"></a>NSSCTF 流量分析</h2><h3 id="NISACTF-2022-流量包里有个熊"><a href="#NISACTF-2022-流量包里有个熊" class="headerlink" title="[NISACTF 2022]流量包里有个熊"></a>[NISACTF 2022]流量包里有个熊</h3><p>kali file一下</p><p><img src="1.png"></p><p>给Bearlove加一个pcap的后缀名</p><p><img src="2.png" alt="2.png"></p><p>有图片导出来康康</p><p><img src="3.png" alt="3.png"></p><p>winhex看到图片里面有flag.txt 直接文件分离</p><p><img src="4.png" alt="4"></p><p>有两个flag文件 base64没有用, rot13解密一下</p><p><img src="5.png" alt="5"></p><p>ffd8开头 ffd9结尾 感觉是jpg</p><p><img src="6.png" alt="6"></p><p>用winhex新建一个1kb的文件 然后把rot13解密后的数据copy进去 格式选择ASCII Hex</p><p><img src="7.png"></p><p>保存为jpg图片 盲水印看到flag 这是要把人看瞎吗</p><p>看wp得flag NSSCTF{S0_clev2l_You}</p><p><img src="8.png"></p>]]></content>
       
       
       <categories>
@@ -23,33 +23,6 @@
             <tag> 流量分析 </tag>
             
             <tag> NSS </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于unipush中配置iOS推送证书的三言两语</title>
-      <link href="/2022/05/26/test/"/>
-      <url>/2022/05/26/test/</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于 IOS 的推送证书，本来想并到 <a href="https://tzy1997.com/articles/io0411sc/">iOS证书(.p12)和描述文件(.mobileprovision)申请</a>一文中，但由于后面会讲到如何在<code>uni-app</code>中用<code>unipush</code>实现苹果端的推送功能，这一步十分关键，所以还是单独拎出来说明如何制作推送证书，以及要注意的几个地方。</p><h2 id="生成请求文件"><a href="#生成请求文件" class="headerlink" title="生成请求文件"></a>生成请求文件</h2><h2 id="申请苹果-App-ID-（App的唯一标识）"><a href="#申请苹果-App-ID-（App的唯一标识）" class="headerlink" title="申请苹果 App ID （App的唯一标识）"></a>申请苹果 App ID （App的唯一标识）</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Butterfly </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> Butterfly </tag>
             
         </tags>
       
